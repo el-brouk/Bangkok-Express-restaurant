@@ -1,4 +1,4 @@
-import createElement from '../assets/lib/create-element.js';
+import createElement from '/assets/lib/create-element.js';
 import ProductCard from './productCard.js';
 
 export default class ProductGrid {
