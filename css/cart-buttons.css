@@ -13,7 +13,7 @@
   right: 24px;
   top: 50%;
   transform: translate(0, -50%);
-  background: url("/assets/images/icons/angle-sm-icon.svg") center no-repeat;
+  background: url("../assets/images/icons/angle-sm-icon.svg") center no-repeat;
   background-size: cover;
   width: 10px;
   height: 18px;
