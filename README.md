@@ -1,4 +1,5 @@
 Bangkok-Express online-restaurant single-page site
+
 The site consists of several components, each one is made as a JS class. Basic components are shown on the page immediately, while products are obtained from the server (using a Fetch request, in json format) and displayed on the page asynchronously (using async-await promises). Products on the page are filtered based on user-selected values, and communication between components occurs through user events.
 The components are:
 1. The "carousel" component. It receives an array of slides and creates the markup for the slides with the ability to switch slides using left-right arrows, hiding the switch buttons when reaching the edge slide, and generating a user event (adding a product to the cart) when clicking on "+".
